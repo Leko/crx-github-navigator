@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub keyboard navigator",
+  "description": "Chrome extension to extend the ability to operate GitHub with keyboard",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
