@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack --watch --mode development",
     "prepare": "webpack --mode production",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --cache './src/**/*.{ts,tsx}'"
   },
   "repository": "Leko/crx-github-navigator",
   "keywords": [
